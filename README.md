@@ -8,5 +8,5 @@ Each spot in the maze is represented by either a '#' or a '.' (dot). The #'s rep
 The exit will be any spot that is on the outside of the array. The program attempts to find a path leading to the exit, it will place the character 'X' in each spot along the path. If a dead end is reached, the program will replace the X’s with '0'. But, the spots with '0' should be marked back to 'X' if these spots are part of a successful path leading to a final state.
 
 ## Screen Shots
-https://imgur.com/knoPAel
+![App Screenshot](https://imgur.com/knoPAel)
 
