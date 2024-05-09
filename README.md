@@ -1,12 +1,10 @@
-# Recursion to solve a maze
 ## Description
+This program employs recursive techniques to solve a maze stored as an array. It assumes the maze contains an exit but cannot determine if an exit is absent. The maze consists of '#' representing walls and '.' representing paths.
 
-This program recursively solves a maze stored as an array. It assumes that the maze has an exit and is unable to tell if there is not an exit. In addition to solving the maze as is, it will solve a transposition of the maze.
+Moves can be made only up, down, left, or right (not diagonally), one spot at a time, and only over paths (not through walls). The exit is any spot on the outer edges of the array.
 
-Each spot in the maze is represented by either a '#' or a '.' (dot). The #'s represent the walls of the maze, and the dots represent paths through the maze. Moves can be made only up, down, left, or right (not diagonally), one spot at a time, and only over paths (not into or across a wall).
+The program endeavors to find a path to the exit, marking each spot along the path with 'X'. If it reaches a dead end, the 'X's are replaced with '0'. However, spots marked '0' are reverted to 'X' if they are part of a successful path leading to the exit.
 
-The exit will be any spot that is on the outside of the array. The program attempts to find a path leading to the exit, it will place the character 'X' in each spot along the path. If a dead end is reached, the program will replace the X’s with '0'. But, the spots with '0' should be marked back to 'X' if these spots are part of a successful path leading to a final state.
-
-## Screen Shots
-![App Screenshot](https://imgur.com/a/78zeiCE)
+## Images
+![screenshot](Images/mazesolver.png)
 
